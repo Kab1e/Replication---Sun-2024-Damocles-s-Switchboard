@@ -1,0 +1,131 @@
+== Knowledge intensity and articles
+RPP rows (R: nrow(rpp)): 4825
+RPP disciplines: 31
+                                              refs  pages        rp
+area                                                               
+Agriculture                                   8521   1552  5.490335
+Astronomy & Astrophysics                      9920   2087  4.753234
+Biochemistry & Molecular Biology              7107   1624  4.376232
+Business & Economics                         17260   5062  3.409719
+Cardiovascular System & Cardiology           11752   2134  5.507029
+Cell Biology                                  3094    714  4.333333
+Chemistry                                    28816   3761  7.661792
+Computer Science                              7239   2424  2.986386
+Endocrinology & Metabolism                    5374    912  5.892544
+Engineering                                  13320   3729  3.572003
+Environmental Sciences & Ecology              8009   1514  5.289960
+Gastroenterology & Hepatology                 5562    823  6.758202
+General & Internal Medicine                   7118   1578  4.510773
+Geochemistry & Geophysics                     5735   1060  5.410377
+Geology                                       7316   1336  5.476048
+Hematology                                    2502    436  5.738532
+Immunology                                    2293    450  5.095556
+Materials Science                             6054   1227  4.933985
+Mathematics                                  14026   9729  1.441669
+Neurosciences & Neurology                    11526   2068  5.573501
+Oncology                                      6555   1447  4.530062
+Optics                                        3887   1265  3.072727
+Pharmacology & Pharmacy                       8513   1690  5.037278
+Physics                                      29557   6791  4.352378
+Plant Sciences                                5826   1088  5.354779
+Polymer Science                               6608    956  6.912134
+Psychiatry                                    2666    439  6.072893
+Psychology                                   14681   2755  5.328857
+Public, Environmental & Occupational Health   4434    880  5.038636
+Science & Technology - Other Topics           5680   1010  5.623762
+Surgery                                       3274    768  4.263021
+
+Chinese articles
+  CN0020/Agriculture.txt: raw 21,483, 2011-20 kept 17,447, TC missing 0
+  CN0020/Astronomy & Astrophysics.txt: raw 8,438, 2011-20 kept 5,694, TC missing 0
+  CN0020/Biochemistry & Molecular Biology.txt: raw 16,417, 2011-20 kept 12,070, TC missing 0
+  CN0020/Business & Economics.txt: raw 10,268, 2011-20 kept 8,970, TC missing 0
+  CN0020/Cell Biology.txt: raw 13,527, 2011-20 kept 11,832, TC missing 0
+  CN0020/Chemistry.txt: raw 277,327, 2011-20 kept 192,857, TC missing 0
+  CN0020/Computer Science.txt: raw 53,846, 2011-20 kept 39,871, TC missing 1
+  CN0020/Engineering.txt: raw 117,936, 2011-20 kept 101,337, TC missing 2
+  CN0020/Environmental Sciences & Ecology.txt: raw 41,845, 2011-20 kept 36,228, TC missing 0
+  CN0020/Gastroenterology & Hepatology.txt: raw 13,761, 2011-20 kept 8,844, TC missing 0
+  CN0020/General & Internal Medicine.txt: raw 26,096, 2011-20 kept 21,694, TC missing 0
+  CN0020/Geochemistry & Geophysics.txt: raw 12,797, 2011-20 kept 9,774, TC missing 0
+  CN0020/Geology.txt: raw 19,136, 2011-20 kept 13,401, TC missing 0
+  CN0020/Materials Science.txt: raw 88,540, 2011-20 kept 68,898, TC missing 0
+  CN0020/Mathematics.txt: raw 96,525, 2011-20 kept 67,374, TC missing 0
+  CN0020/Neurosciences & Neurology.txt: raw 21,680, 2011-20 kept 17,889, TC missing 0
+  CN0020/Oncology.txt: raw 49,560, 2011-20 kept 45,755, TC missing 0
+  CN0020/Optics.txt: raw 59,227, 2011-20 kept 47,896, TC missing 0
+  CN0020/Pharmacology & Pharmacy.txt: raw 35,293, 2011-20 kept 31,153, TC missing 0
+  CN0020/Physics.txt: raw 148,621, 2011-20 kept 87,666, TC missing 0
+  CN0020/Plant Sciences.txt: raw 21,545, 2011-20 kept 17,373, TC missing 0
+  CN0020/Polymer Science.txt: raw 44,871, 2011-20 kept 27,709, TC missing 0
+  CN0020/Science & Technology - Other Topics.txt: raw 64,443, 2011-20 kept 58,692, TC missing 0
+  CN0020/Surgery.txt: raw 8,915, 2011-20 kept 7,487, TC missing 0
+  CN1120new/Cardiovascular System & Cardiology.csv: raw 7,298, 2011-20 kept 7,140, TC missing 0
+  CN1120new/Endocrinology & Metabolism.csv: raw 6,635, 2011-20 kept 6,446, TC missing 0
+  CN1120new/Hematology.csv: raw 1,704, 2011-20 kept 1,664, TC missing 0
+  CN1120new/Immunology.csv: raw 4,493, 2011-20 kept 4,385, TC missing 0
+  CN1120new/Psychiatry.csv: raw 1,814, 2011-20 kept 1,778, TC missing 0
+  CN1120new/Psychology.csv: raw 4,461, 2011-20 kept 4,221, TC missing 0
+  CN1120new/Public, Environmental & Occupational Health.csv: raw 2,425, 2011-20 kept 2,371, TC missing 0
+cn_articles.csv: 985,916 rows, 31 disciplines
+
+US articles
+  US1120/Agriculture.txt: raw 18,657, 2011-20 kept 18,601, TC missing 0
+  US1120/Astronomy & Astrophysics.txt: raw 17,942, 2011-20 kept 17,938, TC missing 0
+  US1120/Biochemistry & Molecular Biology.txt: raw 34,803, 2011-20 kept 34,737, TC missing 0
+  US1120/Business & Economics.txt: raw 52,299, 2011-20 kept 51,181, TC missing 0
+  US1120/Cardiovascular System & Cardiology.txt: raw 27,861, 2011-20 kept 27,541, TC missing 0
+  US1120/Cell Biology.txt: raw 13,344, 2011-20 kept 13,295, TC missing 0
+  US1120/Chemistry.txt: raw 58,899, 2011-20 kept 58,750, TC missing 0
+  US1120/Computer Science.txt: raw 20,785, 2011-20 kept 20,621, TC missing 0
+  US1120/Endocrinology & Metabolism.txt: raw 15,273, 2011-20 kept 15,148, TC missing 0
+  US1120/Engineering.txt: raw 45,199, 2011-20 kept 44,935, TC missing 0
+  US1120/Environmental Sciences & Ecology.txt: raw 21,767, 2011-20 kept 21,579, TC missing 0
+  US1120/Gastroenterology & Hepatology.txt: raw 13,184, 2011-20 kept 12,991, TC missing 0
+  US1120/General & Internal Medicine.txt: raw 32,231, 2011-20 kept 32,104, TC missing 0
+  US1120/Geochemistry & Geophysics.txt: raw 10,163, 2011-20 kept 10,147, TC missing 0
+  US1120/Geology.txt: raw 10,032, 2011-20 kept 10,007, TC missing 0
+  US1120/Hematology.txt: raw 8,123, 2011-20 kept 8,020, TC missing 0
+  US1120/Immunology.txt: raw 9,349, 2011-20 kept 9,307, TC missing 0
+  US1120/Materials Science.txt: raw 14,197, 2011-20 kept 14,067, TC missing 0
+  US1120/Mathematics.txt: raw 48,475, 2011-20 kept 47,674, TC missing 0
+  US1120/Neurosciences & Neurology.txt: raw 46,811, 2011-20 kept 46,388, TC missing 1
+  US1120/Oncology.txt: raw 31,678, 2011-20 kept 31,414, TC missing 0
+  US1120/Optics.txt: raw 11,757, 2011-20 kept 11,757, TC missing 0
+  US1120/Pharmacology & Pharmacy.txt: raw 23,608, 2011-20 kept 23,195, TC missing 0
+  US1120/Physics.txt: raw 44,895, 2011-20 kept 44,865, TC missing 0
+  US1120/Plant Sciences.txt: raw 10,297, 2011-20 kept 10,241, TC missing 0
+  US1120/Polymer Science.txt: raw 8,547, 2011-20 kept 8,476, TC missing 0
+  US1120/Psychiatry.txt: raw 11,117, 2011-20 kept 10,983, TC missing 0
+  US1120/Psychology.txt: raw 68,702, 2011-20 kept 66,811, TC missing 1
+  US1120/Public, Environmental & Occupational Health.txt: raw 32,556, 2011-20 kept 31,911, TC missing 0
+  US1120/Science & Technology - Other Topics.txt: raw 84,575, 2011-20 kept 84,531, TC missing 2
+  US1120/Surgery.txt: raw 31,526, 2011-20 kept 31,072, TC missing 1
+us_articles.csv: 870,287 rows, 31 disciplines
+
+CN disciplines without an RPP match: []
+
+== Firm panel
+FX rows 12068 from 1971-01-04 to 2017-04-05
+ss.csv: raw 182,645, after FX date merge 102,539, max date 2017-03-31
+hk8719.csv: raw 108,023, after FX date merge 15,237, max date 2017-03-31
+na.csv: raw 948,798, after FX date merge 244,727, max date 2017-03-31
+firm_panel: 362503 {'CHN': 4539, 'USA': 11194} dates 2000-01-31 2017-03-31
+
+== Table A1
+        data_patents  all_patents       pct
+NAICS                                      
+211111             6         1708  0.003513
+221112             2           21  0.095238
+324110           261        35275  0.007399
+325110             1         1202  0.000832
+331312             9         2479  0.003630
+334413          4649        67023  0.069364
+454111           123          167  0.736527
+517110           686         3204  0.214107
+517210            11          117  0.094017
+518210           247          825  0.299394
+519130           531          961  0.552549
+524113            14           36  0.388889
+541612             1            4  0.250000
+median pct: 0.09523809523809523

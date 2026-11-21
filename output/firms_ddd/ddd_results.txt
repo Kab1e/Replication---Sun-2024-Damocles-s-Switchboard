@@ -1,0 +1,117 @@
+DDD sample: 145,305 firm-dates ({'CHN': 4454, 'USA': 6542} firms), 2011-01-31 to 2017-03-31
+
+Table A3 (treated): Chinese firms 2013
+         count       mean        std    min         max
+rev      221.0   1368.764   9231.514  0.000   95047.059
+at       251.0  11746.782  66190.673  1.766  555083.998
+che      251.0   1295.753  10231.823  0.000  138042.519
+cstk     249.0    378.911   2717.886  0.000   30232.915
+lse      251.0  11746.782  66190.673  1.766  555083.998
+lt       251.0   8961.626  54356.486  1.197  515487.553
+seq      240.0   2627.222  17268.552  0.112  187114.492
+logrev   221.0      3.891      1.992 -4.605      11.462
+logat    251.0      5.780      1.852  0.574      13.227
+logche   251.0      4.215      1.854 -4.605      11.835
+logcstk  249.0      3.165      2.528 -4.605      10.317
+loglt    251.0      4.574      2.215  0.188      13.153
+logseq   240.0      5.285      1.642 -2.108      12.139
+
+Table A4 (control): Chinese firms 2013
+          count      mean        std    min          max
+rev      5726.0   458.473   3047.133  0.000   122202.124
+at       6683.0  6882.173  95143.425  0.003  3124990.006
+che      6684.0  1532.602  22822.812  0.001   669322.712
+cstk     6622.0   217.257   1824.526  0.000    58045.493
+lse      6684.0  6881.162  95136.342  0.003  3124990.006
+lt       6680.0  5909.805  88889.947  0.011  2913802.963
+seq      6643.0   903.640   6518.482  0.034   210471.943
+logrev   5726.0     4.307      1.754 -4.605       11.713
+logat    6683.0     6.133      1.640 -4.343       14.955
+logche   6684.0     4.216      1.753 -4.510       13.414
+logcstk  6622.0     3.820      1.775 -4.605       10.969
+loglt    6680.0     5.198      1.975 -3.858       14.885
+logseq   6643.0     5.352      1.422 -3.124       12.257
+
+Table A5: Welch t-tests, data-intensive vs other Chinese firms (2013)
+  logrev   treated    3.891  control    4.307  t =  -3.057  df =   233.4  p = 0.002497
+  logat    treated    5.780  control    6.133  t =  -2.981  df =   264.9  p = 0.003145
+  logche   treated    4.215  control    4.216  t =  -0.003  df =   267.1  p = 0.9979
+  logcstk  treated    3.165  control    3.820  t =  -4.047  df =   257.3  p = 6.877e-05
+  loglt    treated    4.574  control    5.198  t =  -4.396  df =   265.1  p = 1.596e-05
+  logseq   treated    5.285  control    5.352  t =  -0.626  df =   252.1  p = 0.532
+
+================ Table A7 (naive) — NAICS-clustered SEs, year FE ================
+
+patent-based, all
+term                         coef        se        p
+treat                     -0.4764    0.6465   0.4613    
+china                      0.3264    0.2946   0.2683    
+censor                    -0.0369    0.1334   0.7820    
+treat:china                0.1672    0.6348   0.7923    
+treat:censor               0.3347    0.2429   0.1686    
+china:censor               0.3353    0.1959   0.0873 *  
+treat:china:censor        -0.2784    0.3217   0.3870    
+N = 120,069   clusters = 957
+
+patent-based, > median
+term                         coef        se        p
+treat2                    -0.5779    0.6254   0.3557    
+china                      0.3360    0.2861   0.2405    
+censor                    -0.0242    0.1290   0.8512    
+treat2:china              -0.0132    0.4928   0.9786    
+treat2:censor              0.3407    0.1851   0.0660 *  
+china:censor               0.3226    0.1925   0.0941 *  
+treat2:china:censor       -0.2448    0.2683   0.3617    
+N = 120,069   clusters = 957
+
+NAICS 'internet'
+term                         coef        se        p
+treat1                    -0.9337    0.4357   0.0323 ** 
+china                      0.3264    0.2865   0.2550    
+censor                    -0.0219    0.1281   0.8643    
+treat1:china               0.1318    0.3456   0.7031    
+treat1:censor              0.3206    0.1994   0.1083    
+china:censor               0.3161    0.1921   0.1002    
+treat1:china:censor       -0.0892    0.2122   0.6745    
+N = 120,069   clusters = 957
+
+================ Table A8 (saturated: + log assets, log liabilities) — NAICS-clustered SEs, year FE ================
+
+patent-based, all
+term                         coef        se        p
+treat                     -0.1603    0.3503   0.6473    
+china                     -0.0059    0.1538   0.9695    
+censor                    -0.1831    0.0932   0.0496 ** 
+treat:china                0.2361    0.3288   0.4730    
+treat:censor               0.3507    0.1366   0.0104 ** 
+china:censor               0.3470    0.1284   0.0070 ***
+treat:china:censor        -0.2887    0.1741   0.0976 *  
+logat                      0.6509    0.0737   0.0000 ***
+loglt                      0.3473    0.0996   0.0005 ***
+N = 113,670   clusters = 950
+
+patent-based, > median
+term                         coef        se        p
+treat2                    -0.1423    0.3809   0.7089    
+china                      0.0033    0.1493   0.9823    
+censor                    -0.1723    0.0907   0.0576 *  
+treat2:china               0.1006    0.2511   0.6888    
+treat2:censor              0.3655    0.1284   0.0045 ***
+china:censor               0.3386    0.1263   0.0075 ***
+treat2:china:censor       -0.3101    0.1622   0.0563 *  
+logat                      0.6517    0.0735   0.0000 ***
+loglt                      0.3466    0.0991   0.0005 ***
+N = 113,670   clusters = 950
+
+NAICS 'internet'
+term                         coef        se        p
+treat1                     0.2116    0.1464   0.1485    
+china                      0.0131    0.1489   0.9298    
+censor                    -0.1703    0.0898   0.0583 *  
+treat1:china              -0.1332    0.1115   0.2328    
+treat1:censor              0.2907    0.1213   0.0168 ** 
+china:censor               0.3399    0.1257   0.0070 ***
+treat1:china:censor       -0.3488    0.1610   0.0306 ** 
+logat                      0.6555    0.0734   0.0000 ***
+loglt                      0.3443    0.0993   0.0005 ***
+N = 113,670   clusters = 950
